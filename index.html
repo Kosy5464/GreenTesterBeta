@@ -25,6 +25,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@1,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
@@ -35,11 +37,21 @@
 
 
 <body id="page-top">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="font-family: 'Philosopher', sans-serif;">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background-color: rgb(28, 29, 28); opacity: 0.9; font-family: 'Philosopher', sans-serif;">
+      <!--스타일 페이지로 넘어가면 바뀌도록 변경-->
       <div class="container">
-          
-          <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-fluid" src="img/logo.png" width="280" alt=""></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars"></i></button>
-          
+          <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-fluid" src="img/logo.png" width="280" alt="">
+          </a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="color:white; font-family: 'Roboto', sans-serif; font-size: 15px">Menu <i class="fas fa-bars"></i></button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto" >
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about" style="color:white; font-family: 'Roboto', sans-serif; font-size: 15px"><b>Service</b></a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services"  style="color:white; font-family: 'Roboto', sans-serif;  font-size: 15px" ><b>Process</b></a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#price"  style="color:white; font-family: 'Roboto', sans-serif;  font-size: 15px"><b>Price</b></a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio2"  style="color:white; font-family: 'Roboto', sans-serif;  font-size: 15px"><b>Portfolio</b></a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Contact"  style="color:white; font-family: 'Roboto', sans-serif;  font-size: 15px"><b>Contact Us</b></a></li>
+              </ul>
+          </div>
       </div>
   </nav>
   
@@ -47,61 +59,63 @@
 
   <!-- Header -->
   <!--masthed d-flex가 bg-masthead.jpg랑 이어짐!-->
-  <header class="masthead d-flex" style="font-family: 'Caladea', serif;">
+  <header class="masthead d-flex" style="font-family: 'Noto Sans KR', sans-serif;">
     <div class="container text-center my-auto">
-      <h1 class="mb-1" style="color:white">Welcome to your customer-centered Service !</h1>
+      <h1 class="mb-1" style="color:white">고객은 당신의 서비스를 <br>어떻게 생각하나요 ?</h1>
       <h3 class="mb-5" style="color:whitesmoke">
-        <br><em style="font-family: 'Philosopher', sans-serif;">Start !</em>
+        <h5 style="color: white; font-family: 'Noto Sans KR', sans-serif;"> <br>그린테스터로 확인하세요 !</h5>
       </h3>
-      <a class = "js-scroll-trigger" href="#about" style="color:green" ><b></b></a><br>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" style="font-family: 'Philosopher', sans-serif;">Start</a>
+      <a class = "js-scroll-trigger" href="#about" style="color:green" ><b></b></a><br><br>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">VIEW MORE</a>
     </div>
     <div class="overlay"></div>
   </header>
 
-  <!-- Service 소개 및 질문 작성 페이지 -->
+  <!-- Service 소개 페이지 -->
   <section class="content-section bg-light" id="about" style="font-family: 'Nanum Gothic Coding', monospace;">
     <div class="container text-center">
+
       <div class="row">
         <div class="col-lg-10 mx-auto">
               <!-- <img class="img-fluid" src="img/logo2.png" width="400" alt=""> -->
           <h2 style="font-family: 'Philosopher', sans-serif;">Green Tester ?</h2>
-          <p class>저희는 개발/출시 전,후 각 단계의 IT 서비스들을 <br>실제 사용자들로 구성된 테스터들에게 사용자 테스트를 진행해 드리는 서비스입니다.
+          <p class><br>그린테스터는 여러분의 아이디어를 마음껏 테스트하도록 돕습니다.
           </p>
           <p>
-            <br><b>그린 테스터가 제공하는 3가지 !</b>
+            <br><b>당신의 아이디어를 원하는 타겟에게 원하는 만큼 테스트 해보세요.</b>
           </p>
+          
           <section class="contact-section bg-black">
               <div class="container">
                   <div class="row">
                       <div class="col-md-4 mb-3 mb-md-0">
                           <div class="card py-4 h-100">
                               <div class="card-body text-center">
-                                  <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                  <h4 class="text-uppercase m-0">사용자 테스트</h4>
+                                  <!-- <i class="fas fa-map-marked-alt text-primary mb-2"></i> -->
+                                  <h4 class="text-uppercase m-0">User Test</h4>
                                   <hr class="my-4" />
                                   <!--text-black-숫자 에서 숫자에 따라 글씨 커지고 작아지고-->
-                                  <div class="small text-black-60" >현재 서비스에 대한 사용자들의 의견, 개선점과 문제점, 버그/에러 등을 찾을 수 있습니다.</div>
+                                  <div class="small text-black-60" >현재 서비스에 대한 사용자들의 의견, 개선점과 문제점, 버그/에러 등을 들어보세요. <br>현 서비스의 문제점을 확인해 보세요. </div>
                               </div>
                           </div>
                       </div>
                       <div class="col-md-4 mb-3 mb-md-0">
                           <div class="card py-4 h-100">
                               <div class="card-body text-center">
-                                  <i class="fas fa-envelope text-primary mb-2"></i>
-                                  <h4 class="text-uppercase m-0">테스터</h4>
+                                  <!--<i class="fas fa-envelope text-primary mb-2"></i> -->
+                                  <h4 class="text-uppercase m-0">Tester</h4>
                                   <hr class="my-4" />
-                                  <div class="small text-black-60">전문가가 아닌 서비스를 실제 사용하는 일반인들로 구성된 테스터들로써 시장 검증에 도움을 드릴 수 있습니다.</div>
+                                  <div class="small text-black-60">전문가가 아닌 서비스를 사용하는 일반인들로 구성된 테스터들로써 시장 검증에 도움을 드립니다.</div>
                               </div>
                           </div>
                       </div>
                       <div class="col-md-4 mb-3 mb-md-0">
                           <div class="card py-4 h-100">
                               <div class="card-body text-center">
-                                  <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                  <h4 class="text-uppercase m-0">마케팅</h4>
+                                  <!-- <i class="fas fa-mobile-alt text-primary mb-2"></i>-->
+                                  <h4 class="text-uppercase m-0">Marketing</h4>
                                   <hr class="my-4" />
-                                  <div class="small text-black-60">초기 마케팅을 도움이 됩니다.</div>
+                                  <div class="small text-black-60">테스터들을 통해 자연스러운 초기 마케팅에 도움이 됩니다.</div>
                               </div>
                           </div>
                       </div>
@@ -114,12 +128,12 @@
     </div>
   </section>
 
-  <!-- 테스터 선택 페이지 -->
+  <!-- Process 진행 절차 관련 페이지 -->
   <section class="content-section bg-primary text-white text-center" id="services" style="font-family: 'Nanum Gothic Coding', monospace;" >
     <div class="container">
       <div class="content-section-heading">
         <h3 class="text-secondary mb-0">Process 1</h3>
-        <h2 class="mb-5" style="font-family: 'Philosopher', sans-serif;">서비스 전체 진행 절차</h2>
+        <h2 class="mb-5" style="font-family: 'Philosopher', sans-serif;">Service Process</h2>
       </div>
       <div class="row">
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
@@ -168,7 +182,7 @@
           <div class="container">
             <div class="content-section-heading text-center">
               <h3 class="text-secondary mb-0">Process 2</h3>
-              <h2 class="mb-5" style="font-family: 'Philosopher', sans-serif;">테스트 진행 방법</h2>
+              <h2 class="mb-5" style="font-family: 'Philosopher', sans-serif;">Test Process</h2>
             </div>
             <div class="row no-gutters">
               <div class="col-lg-6">
@@ -223,79 +237,25 @@
   <!-- Price 가격 소개 페이지 -->
   <section class="callout" id="price" style="font-family: 'Nanum Gothic Coding', monospace;">
     <div class="container text-center">
-      <h2 class="mx-auto mb-5 " style="font-family: 'Philosopher', sans-serif; font-size: 30px" >고객의 의견을 무료로 들어 보세요 !<br>
+      <h2 class="mx-auto mb-5 " style="font-family: 'Philosopher', sans-serif; font-size: 30px" >지금, 고객의 소리를 들어 보세요 !<br>
          <h3 style="font-size:15px"><span style="color:rgb(243, 173, 61)"> 베타 테스트</span>로 모든 비용은 무료로 진행됩니다. <br>그린 테스터와 함께 당신의 서비스에 대한 고객의 의견을 들어보세요.
         </h3>
       </h2><br><br>
-      <a href="#" style="color:green"><b>테스트 하러 가기! </b></a><br><br>
-      <h6>* 결과 만족도에 따라 그린테스터의 발전을 위해 지원금을 자유롭게 주셔도 됩니다.</h6><br><br>
+      <a href="index2.html" style="color:green" target="_blank"><b>테스트 하러 가기! </b></a><br><br>
+      <h6>* 현재 테스터들은 20대로만 구성되어 있어 서비스의 타겟이 20대인 서비스만 테스트가 가능합니다.</h6><br><br>
       <img class="img-fluid" src="img/TestIcon.jpg" width="600" alt="">
       <!-- <br><a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">테스트 하러 가기!</a>
    -->
       </div>
   </section>
 
-  <!-- Portfolio 페이지 -->
-  <section class="content-section bg-primary" id="portfolio" style="font-family: 'Nanum Gothic Coding', monospace;">
-    <div class="container">
-      <div class="content-section-heading text-center">
-        <h3 class="text-secondary mb-0">Process 2</h3>
-        <h2 class="mb-5" style="font-family: 'Philosopher', sans-serif;">Process !</h2>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Inquiry</h2>
-                <p class="mb-0">현재 베타서비스로 무료입니다. 자유롭게 문의주세요 !</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Discuss Requests</h2>
-                <p class="mb-0">테스트를 통해 알고자 하는 점을 토의하고 그에 맞는 질문과 체크리스트를 구성하여 문서화 합니다.</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Test</h2>
-                <p class="mb-0">테스터들이 서비스를 직접 사용해보며 질문이 들어있는 문서에 서술형으로 답하여 문서를 작성합니다 !</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Feedback</h2>
-                <p class="mb-0">테스트 결과에 대한 피드백을 그린테스터에 말해주세요. 현재 베타테스트로 더 발전하고자 합니다 ! </p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
   
+
+
+  <!--Portfolio 페이지-->
   <div class="section section-gray section-clients" id="portfolio2" style="font-family: 'Nanum Gothic Coding', monospace; " >
     <div class="container text-center">
-        <h4 class="header-text"><br>고객의 소리를 들은 서비스</h4>
+        <h4 class="header-text"><br><br><br><br><br><br>고객의 소리를 들은 서비스</h4>
         <p>
           <marquee direction="right"><h4> Welcome to <em>your</em> customer-centered Service!</h4><br></marquee>
            
@@ -314,7 +274,7 @@
       <br>
       <br>
       <dirv>
-        <a href="#" class="btn btn-primary btn-xl btn-dark">제휴 문의</a>
+        <a href="#" class="btn btn-primary btn-xl btn-light mr-4">제휴 문의</a>
         <a href="#" class="btn btn-primary btn-xl btn-light mr-4">테스터 지원</a>
       </dirv>
     </div>
@@ -338,7 +298,7 @@
                   <span style="font-size:20px; color: grey ; font-family:'Cinzel', serif;">  Tester</span>
                 </a>
            </nav>
-          <br><br> <img class="img-fluid" src="img/logo.png" width="200" alt=""><br>
+          <br><br> <img class="img-fluid" src="img/bottomlogo.png" width="200" alt=""><br>
            <div class="copyright">
               <span style="font-size:15px; text-emphasis-position: center">Copyright &copy; GAJAH 2019. All Rights Reserved</span>
               <br><span style="font-size:15px; text-emphasis-position: center">gajahcompany@gmail.com</span>
