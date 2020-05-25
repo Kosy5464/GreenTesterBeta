@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--테스트 진행하는 페이지-->
+
 <head>
 
   <meta charset="utf-8">
@@ -35,7 +37,8 @@
 
 
 <body id="page-top">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="font-family: 'Philosopher', sans-serif;">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background-color: rgb(28, 29, 28); opacity: 0.9; font-family: 'Philosopher', sans-serif;">
+     
       <div class="container">
           
           <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-fluid" src="img/logo.png" width="280" alt=""></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars"></i></button>
@@ -49,19 +52,23 @@
   <!--masthed d-flex가 bg-masthead.jpg랑 이어짐!-->
   <header class="masthead d-flex" style="font-family: 'Caladea', serif;">
     <div class="container text-center my-auto">
-      <h1 class="mb-1" style="color:white">Welcome to your customer-centered Service !</h1>
-      <h3 class="mb-5" style="color:whitesmoke">
-        <br><em style="font-family: 'Philosopher', sans-serif;">Start !</em>
-      </h3>
-      <a class = "js-scroll-trigger" href="#about" style="color:green" ><b></b></a><br>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" style="font-family: 'Philosopher', sans-serif;">Start</a>
+      <h1 class="mb-1" style="color:white; font-family: 'Roboto', sans-serif;"><br>당신의 고객 중심적인 <br>서비스를 환영합니다 !</h1>
+
+      <a class = "js-scroll-trigger" href="#about" style="color:green" ><b></b></a><br><br>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" style="font-family: 'Philosopher', sans-serif;">테스트 진행하기</a>
     </div>
     <div class="overlay"></div>
   </header>
 
-  <!-- Service 소개 페이지 -->
+
+
+  <!-- 테스트지 작성 페이지 -->
   <section class="content-section bg-light" id="about" style="font-family: 'Nanum Gothic Coding', monospace;">
     <div class="container text-center">
+        <div class="content-section-heading text-center">
+            <h3 class="text-secondary mb-0">Process 1</h3>
+            <h2 class="mb-5" style="font-family: 'Philosopher', sans-serif;">테스트지 작성</h2>
+          </div>
       <div class="row">
         <div class="col-lg-10 mx-auto">
               <!-- <img class="img-fluid" src="img/logo2.png" width="400" alt=""> -->
@@ -105,22 +112,22 @@
                               </div>
                           </div>
                       </div>
-                  </div>
-                  
-              </div>
+                  </div> 
+              </div><br>
+              <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" style="font-family: 'Philosopher', sans-serif;">다음</a>
           </section>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Process 진행 절차 관련 페이지 -->
+  <!-- 테스터 선택 페이지 -->
   <section class="content-section bg-primary text-white text-center" id="services" style="font-family: 'Nanum Gothic Coding', monospace;" >
-    <div class="container">
-      <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">Process 1</h3>
-        <h2 class="mb-5" style="font-family: 'Philosopher', sans-serif;">서비스 전체 진행 절차</h2>
-      </div>
+    <div class="container text-center">
+        <div class="content-section-heading text-center">
+            <h3 class="text-secondary mb-0">Process 2</h3>
+            <h2 class="mb-5" style="font-family: 'Philosopher', sans-serif;">테스터 선택</h2>
+          </div>
       <div class="row">
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
@@ -160,191 +167,35 @@
         </div>
 
        </div>
-    </div>
-
-    
-
-      <section class="content-section bg-primary" id="portfolio" style="font-family: 'Nanum Gothic Coding', monospace;">
-          <div class="container">
-            <div class="content-section-heading text-center">
-              <h3 class="text-secondary mb-0">Process 2</h3>
-              <h2 class="mb-5" style="font-family: 'Philosopher', sans-serif;">테스트 진행 방법</h2>
-            </div>
-            <div class="row no-gutters">
-              <div class="col-lg-6">
-                <a class="portfolio-item" href="#">
-                  <span class="caption">
-                    <span class="caption-content">
-                      <h2>테스터 선택</h2>
-                      <p class="mb-0">타겟에 맞는 테스터들을 직접 선택해 보세요 !</p>
-                    </span>
-                  </span>
-                  <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-                </a>
-              </div>
-              <div class="col-lg-6">
-                <a class="portfolio-item" href="#">
-                  <span class="caption">
-                    <span class="caption-content">
-                      <h2>질문 사항 정리</h2>
-                      <p class="mb-0">테스트를 통해 알고자 하는 점을 토의하고 그에 맞는 질문과 체크리스트를 구성하여 문서화 합니다.</p>
-                    </span>
-                  </span>
-                  <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-                </a>
-              </div>
-              <div class="col-lg-6">
-                <a class="portfolio-item" href="#">
-                  <span class="caption">
-                    <span class="caption-content">
-                      <h2>테스트 진행</h2>
-                      <p class="mb-0">테스터들이 서비스를 직접 사용해보며 질문이 들어있는 문서에 서술형으로 답하여 문서를 작성합니다 !</p>
-                    </span>
-                  </span>
-                  <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-                </a>
-              </div>
-              <div class="col-lg-6">
-                <a class="portfolio-item" href="#">
-                  <span class="caption">
-                    <span class="caption-content">
-                      <h2>테스터 평가</h2>
-                      <p class="mb-0" style="color:rgb(63, 121, 41)">테스트 결과에 대한 테스터들 직접 평가해 주세요 ! </p>
-                    </span>
-                  </span>
-                  <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+    </div><br>
+    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" style="font-family: 'Philosopher', sans-serif;">다음</a>
   </section>
-
-  <!-- Price 가격 소개 페이지 -->
+ 
+  <!-- 테스터 선택 페이지 -->
   <section class="callout" id="price" style="font-family: 'Nanum Gothic Coding', monospace;">
     <div class="container text-center">
-      <h2 class="mx-auto mb-5 " style="font-family: 'Philosopher', sans-serif; font-size: 30px" >고객의 의견을 무료로 들어 보세요 !<br>
+        <div class="content-section-heading text-center">
+            <h3 class="text-secondary mb-0">Process 2</h3>
+            <h2 class="mx-auto mb-5 " style="font-family: 'Philosopher', sans-serif; font-size: 30px" >테스터 선택하기<br>
+          </div>
+
          <h3 style="font-size:15px"><span style="color:rgb(243, 173, 61)"> 베타 테스트</span>로 모든 비용은 무료로 진행됩니다. <br>그린 테스터와 함께 당신의 서비스에 대한 고객의 의견을 들어보세요.
         </h3>
       </h2><br><br>
       <a href="#" style="color:green"><b>테스트 하러 가기! </b></a><br><br>
       <h6>* 결과 만족도에 따라 그린테스터의 발전을 위해 지원금을 자유롭게 주셔도 됩니다.</h6><br><br>
-      <img class="img-fluid" src="img/TestIcon.jpg" width="600" alt="">
-      <!-- <br><a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">테스트 하러 가기!</a>
-   -->
+      <img class="img-fluid" src="img/TestIcon.jpg" width="600" alt=""><br>
+      <br><a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" style="font-family: 'Philosopher', sans-serif;">다음</a>
       </div>
   </section>
-
-  <!-- Portfolio 페이지 -->
-  <section class="content-section bg-primary" id="portfolio" style="font-family: 'Nanum Gothic Coding', monospace;">
-    <div class="container">
-      <div class="content-section-heading text-center">
-        <h3 class="text-secondary mb-0">Process 2</h3>
-        <h2 class="mb-5" style="font-family: 'Philosopher', sans-serif;">Process !</h2>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Inquiry</h2>
-                <p class="mb-0">현재 베타서비스로 무료입니다. 자유롭게 문의주세요 !</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Discuss Requests</h2>
-                <p class="mb-0">테스트를 통해 알고자 하는 점을 토의하고 그에 맞는 질문과 체크리스트를 구성하여 문서화 합니다.</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Test</h2>
-                <p class="mb-0">테스터들이 서비스를 직접 사용해보며 질문이 들어있는 문서에 서술형으로 답하여 문서를 작성합니다 !</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Feedback</h2>
-                <p class="mb-0">테스트 결과에 대한 피드백을 그린테스터에 말해주세요. 현재 베타테스트로 더 발전하고자 합니다 ! </p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  
-  <div class="section section-gray section-clients" id="portfolio2" style="font-family: 'Nanum Gothic Coding', monospace; " >
-    <div class="container text-center">
-        <h4 class="header-text"><br>고객의 소리를 들은 서비스</h4>
-        <p>
-          <marquee direction="right"><h4> Welcome to <em>your</em> customer-centered Service!</h4><br></marquee>
-           
-        </p>
-        <img class="img-fluid" src="img/customer.png" width="800" alt="">
-        <br>  <br>        <br>  <br>        <br>  <br>
-    </div>
-</div>
-
-  <!-- Contact Us 페이지, 여기서 테스터 지원하기 버튼! -->
-  <section class="content-section bg-primary text-white" id="Contact" style="font-family: 'Nanum Gothic Coding', monospace;">
-    <div class="container text-center">
-      <h2 class="mb-4" style="font-family: 'Philosopher', sans-serif;">Contact Us...</h2>
-      <br>
-      <h6 style="font-size: 20px;">E-mail: gajahcompany@gmail</h6>
-      <br>
-      <br>
-      <dirv>
-        <a href="#" class="btn btn-primary btn-xl btn-dark">제휴 문의</a>
-        <a href="#" class="btn btn-primary btn-xl btn-light mr-4">테스터 지원</a>
-      </dirv>
-    </div>
-  </section>
-
 
 
   <!-- Footer -->
-  <footer class="footer text-center">
+  <footer class="footer text-center" style="background-color:black; opacity: 0.9;">
       <div class="container">
-          <nav class="pull-left">            
-              <a href="#">
-                  <span style="font-size:20px; color: grey; font-family:'Cinzel', serif;">Company</span>
-              </a>
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              <a href="https://blog.naver.com/gajahcompany">
-                <span style="font-size:20px; color: grey; font-family:'Cinzel', serif;" >Blog</span>
-              </a>
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-               <a href="#">
-                  <span style="font-size:20px; color: grey ; font-family:'Cinzel', serif;">  Tester</span>
-                </a>
-           </nav>
-          <br><br> <img class="img-fluid" src="img/logo.png" width="200" alt=""><br>
-           <div class="copyright">
+           <img class="img-fluid" src="img/1logo.png" width="300" alt=""><br>
+           <div class="copyright" style="color:rgb(229, 250, 224)">
               <span style="font-size:15px; text-emphasis-position: center">Copyright &copy; GAJAH 2019. All Rights Reserved</span>
-              <br><span style="font-size:15px; text-emphasis-position: center">gajahcompany@gmail.com</span>
-              <br><span style="font-size:12px; text-emphasis-position: center">사업자 등록 번호: 642-12-01053</span>
-              <br><span style="font-size:12px; text-emphasis-position: center">통신 판매업:</span>
-              <br><span style="font-size:12px; text-emphasis-position: center">대표자: 고수열</span>
           </div>
 
         </div>
