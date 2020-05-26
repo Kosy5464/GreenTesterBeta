@@ -10,5 +10,7 @@ document.getElementById('submit').onclick= function(){
   }
   else{
     alert("코드가 맞지 않습니다.");
+    event.preventDefault()
+    location.href = 'index21.html';
   }
 }
