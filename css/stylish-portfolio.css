@@ -220,8 +220,16 @@ h6 {
 }
 
 .callout2 {
-  padding: 13rem 0;
+  padding: 14rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout2.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.callout3 {
+  padding: 14rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout3.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
