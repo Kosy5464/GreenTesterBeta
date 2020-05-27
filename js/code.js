@@ -3,7 +3,7 @@
 document.getElementById('submit').onclick= function(){
 
   var code = document.getElementById('qcode').value;
-  if(code=="Custom"){
+  if(code=="Customer"){
     event.preventDefault()
     location.href = 'index2.html';
 
