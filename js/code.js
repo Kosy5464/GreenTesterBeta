@@ -1,6 +1,6 @@
 
 
-document.getElementById('submit').onclick= function(){
+document.getElementById('submitqode').onclick= function(){
 
   var code = document.getElementById('qcode').value;
   if(code=="Customer"){
@@ -14,3 +14,4 @@ document.getElementById('submit').onclick= function(){
     location.href = 'index21.html';
   }
 }
+
