@@ -3,7 +3,16 @@
 
 ![index2_logo](https://user-images.githubusercontent.com/48445082/83166293-acae2580-a149-11ea-8ce4-357d9d467771.png)
 
-
+Who we are? 
+https://kosy5464.github.io/GreenTesterBeta/index3.html
+<br>
+Hompage 1: http://greentester.dothome.co.kr
+<br>
+Hompage 2: https://kosy5464.github.io/GreenTesterBeta/.
+<br>
+Blog: https://blog.naver.com/gajahcompany
+<br>
+Contact us: gajahcompany@gmail.com
 
 
 <h3> Team </h3>
@@ -20,10 +29,4 @@
 ![image](https://user-images.githubusercontent.com/48445082/83166414-d9fad380-a149-11ea-902f-7709f03701ea.png)
 
 
-Who we are? 
-https://kosy5464.github.io/GreenTesterBeta/index3.html
 
-Hompage 1: http://greentester.dothome.co.kr
-Hompage 2: https://kosy5464.github.io/GreenTesterBeta/.
-Blog: https://blog.naver.com/gajahcompany
-Contact us: gajahcompany@gmail.com
