@@ -9,6 +9,8 @@
 <h3> 팀원 </h3>
 <h4> 고수열(개발,영업) / 손지현 (개발) / 이상빈 (디자인) / 최현성 (경영지원) </h4>
 
+
+
 <h3> Index 순서 및 배치도 </h3>
 
 ![image](https://user-images.githubusercontent.com/48445082/83166414-d9fad380-a149-11ea-902f-7709f03701ea.png)
