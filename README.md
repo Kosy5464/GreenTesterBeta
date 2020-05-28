@@ -4,7 +4,7 @@
 
 ![index2_logo](https://user-images.githubusercontent.com/48445082/83166293-acae2580-a149-11ea-8ce4-357d9d467771.png)
 
-Who we are? <br>
+<b>Who we are?</b> <br>
 https://kosy5464.github.io/GreenTesterBeta/index3.html
 <br><br>
 Hompage 1: http://greentester.dothome.co.kr
