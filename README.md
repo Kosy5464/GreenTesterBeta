@@ -20,4 +20,10 @@
 ![image](https://user-images.githubusercontent.com/48445082/83166414-d9fad380-a149-11ea-902f-7709f03701ea.png)
 
 
+Who we are? 
+https://kosy5464.github.io/GreenTesterBeta/index3.html
 
+Hompage 1: http://greentester.dothome.co.kr
+Hompage 2: https://kosy5464.github.io/GreenTesterBeta/.
+Blog: https://blog.naver.com/gajahcompany
+Contact us: gajahcompany@gmail.com
