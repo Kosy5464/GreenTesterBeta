@@ -3,9 +3,9 @@
 
 ![index2_logo](https://user-images.githubusercontent.com/48445082/83166293-acae2580-a149-11ea-8ce4-357d9d467771.png)
 
-Who we are? 
+Who we are? <br>
 https://kosy5464.github.io/GreenTesterBeta/index3.html
-<br>
+<br><br>
 Hompage 1: http://greentester.dothome.co.kr
 <br>
 Hompage 2: https://kosy5464.github.io/GreenTesterBeta/.
@@ -14,7 +14,7 @@ Blog: https://blog.naver.com/gajahcompany
 <br>
 Contact us: gajahcompany@gmail.com
 
-
+<br>
 <h3> Team </h3>
 <h4> 고수열(개발,영업) / 손지현 (개발) / 이상빈 (디자인) / 최현성 (경영지원) </h4>
 
