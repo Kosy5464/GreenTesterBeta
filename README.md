@@ -27,8 +27,7 @@ Contact us: gajahcompany@gmail.com
 <br><br>
 <h3> Index </h3>
 
-![image](https://user-images.githubusercontent.com/48445082/83168081-ef70fd00-a14b-11ea-84e6-954e14456293.png)
-
+![image](https://user-images.githubusercontent.com/48445082/83236981-68fdff00-a1cf-11ea-93b6-cc0cbf28e595.png)
 
 
 
