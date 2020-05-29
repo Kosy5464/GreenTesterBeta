@@ -46,26 +46,26 @@
 <!--stylish-portfolio.min.css에서 왠만한 색깔 수정!!-->
 <!-- Header -->
 <!--masthed d-flex가 bg-masthead.jpg랑 이어짐!-->
-  <header class="masthead d-flex" style="font-family: 'Noto Sans KR', sans-serif;">
-      <div class="container text-center my-auto">
+<header class="masthead d-flex" style="font-family: 'Noto Sans KR', sans-serif;">
+    <div class="container text-center my-auto">
         <h1 class="mb-1" style="color:white; font-size: 70px">당신의<br>고객 중심적인 서비스를 <br>환영합니다.</h1>
         <h3 class="mb-5" style="color:whitesmoke">
         </h3>
         <a class = "js-scroll-trigger" href="#about" style="color:green" ><b></b></a><br><br>
         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#test1" style="font-family: 'Roboto', sans-serif;">테스트 진행하기</a>
-      </div>
-      <div class="overlay"></div>
-    </header>
+    </div>
+    <div class="overlay"></div>
+</header>
 
 
 <body id="page-top">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background-color: rgb(28, 29, 28); opacity: 0.9; font-family: 'Philosopher', sans-serif;">
-      <!--스타일 페이지로 넘어가면 바뀌도록 변경-->
-      <div class="container">
-          <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-fluid" src="img/logo.png" width="280" alt="">
-          </a>
-      </div>
-  </nav>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background-color: rgb(28, 29, 28); opacity: 0.9; font-family: 'Philosopher', sans-serif;">
+    <!--스타일 페이지로 넘어가면 바뀌도록 변경-->
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-fluid" src="img/logo.png" width="280" alt="">
+        </a>
+    </div>
+</nav>
 
 
 
@@ -78,7 +78,7 @@
         </div>
         <div class="row">
             <div class="col-lg-7 mx-auto">
-                <div class="text-center"> <img class="img-fluid" src="img/index2_logo.png" width="400" display="block" margin="0px auto" alt=""></div><hr>
+                <div class="text-center"><img class="img-fluid" src="img/index2_logo.png" width="400" display="block" margin="0px auto" alt=""></div><hr>
                 <form>
                     <div class="form-group row">
                         <label for="client" class="col-sm-2 col-form-label">의뢰 고객</label>
@@ -557,7 +557,7 @@
                             </table>
                         </div>
 
-                        <br><a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" style="font-family: 'Philosopher', sans-serif;">다음</a>
+                        <br><a class="btn btn-primary btn-xl js-scroll-trigger" href="#about2" style="font-family: 'Philosopher', sans-serif;">다음</a>
 
                     </div> <!--<div class="container">-->
                 </section>
@@ -566,19 +566,33 @@
     </div>
 </section>
 
-<section class="content-section bg-light" id="about" style="font-family: 'Noto Sans KR', sans-serif;">
-    <div class="container text-center">
+<section class="content-section bg-light" id="about2" style="font-family: 'Noto Sans KR', sans-serif;">
+    <div class="container">
+        <div class="content-section-heading text-center">
         <div class="row">
-            <div class="col-lg-10 mx-auto">
+            <div class="col-lg-12 mx-auto">
                 <!-- <img class="img-fluid" src="img/logo2.png" width="400" alt=""> -->
                 <h3 class="text-secondary mb-0"><br><br>Process 3</h3><br>
-                <h2 class="mb-5" style="font-family: 'Philosopher', sans-serif;">연락 받으실 메일 또는 번호 입력</h2>
-                E-mail: <input type="email" placeholder="abc@gmail.com"><br>
-                번호: <input type="text" placeholder="010-1234-1234"><br>
-                <button type="submit"><a href="index23.html"> 제출하기 </button>
-
-
+                <p class="mb-5" style="font-family:'Philosopher', sans-serif; font-size: 30px;"><b>연락 받으실 메일 또는 번호 입력</b></p>
+                <div class="col-lg-6 mx-auto">
+                    <div class="container">
+                <form>
+                    <div class="form-group row">
+                        <div class="col-sm-2"><label for="InputEmail">E-mail</label></div>
+                        <div class="col-sm-9"><input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="gajah@example.com" checked></div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-2"><label for="InputPhone">연락처</label></div>
+                        <div class="col-sm-9">
+                        <input type="text" class="form-control" id="InputPhone" placeholder="010-1234-5678" checked>
+                        </div>
+                    </div>
+                    <button class="btn btn-info btn-xl js-scroll-trigger" type="submit" onclick="location.html='index23.html'"><a href="index23.html">제출하기</a></button>
+                </form>
+                    </div>
+                </div>
             </div>
+        </div>
         </div>
     </div>
 </section>
@@ -628,7 +642,6 @@
             console.log(value, row, index);
 
             var rowData = new Array();
-            var tdArr = new Array();
             var checkbox = $("input[name=TesterNum]:checked");
 
             checkbox.each(function(i){
@@ -644,6 +657,7 @@
     function operateFormatter(value, row, index) {
         return ['<input class="table-action like" type="checkbox" name="TesterNum">'].join('')
     }
+
 
 
     $(function () {

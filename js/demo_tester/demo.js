@@ -1,4 +1,3 @@
-current_color = "orange";
 full_color = true;
 
 $().ready(function () {
