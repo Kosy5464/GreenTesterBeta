@@ -635,10 +635,8 @@
                 var tr = checkbox.parent().parent().eq(i);
                 var td = tr.children();
 
-                rowData.push(tr.text().substring(0,1));
+                rowData.push(td.eq(0).text());
 
-                var no = td.eq(1).text+'<br>';
-                tdArr.push(no);
             });
             $("#resultTester").html("체크된 Tester ID : "+String(rowData));
         }
@@ -654,8 +652,6 @@
             toolbar: '.toolbar',
 
             search: true,
-            showRefresh: true,
-            showToggle: true,
             showColumns: true,
             pagination: true,
             striped: true,
