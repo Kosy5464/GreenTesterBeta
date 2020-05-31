@@ -105,32 +105,32 @@
                         <label for="inputAge" class="col-sm-2 col-form-label">대상연령</label>
                         <div class="col-sm-10">
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" name="Age" id="age1" value="option1">
+                                <input class="form-check-input" type="checkbox" name="Age" id="age1" value="10대">
                                 <label class="form-check-label" for="age1">10~19</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" name="Age" id="age2" value="option2">
+                                <input class="form-check-input" type="checkbox" name="Age" id="age2" value="20대">
                                 <label class="form-check-label" for="age2">20~29</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" name="Age" id="age3" value="option3">
+                                <input class="form-check-input" type="checkbox" name="Age" id="age3" value="30대">
                                 <label class="form-check-label" for="age3">30~39</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" name="Age" id="age4" value="option4">
+                                <input class="form-check-input" type="checkbox" name="Age" id="age4" value="40대">
                                 <label class="form-check-label" for="age4">40~49</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" name="Age" id="age5" value="option5">
+                                <input class="form-check-input" type="checkbox" name="Age" id="age5" value="50대">
                                 <label class="form-check-label" for="age5">50~59</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" name="Age" id="age6" value="option6">
+                                <input class="form-check-input" type="checkbox" name="Age" id="age6" value="60 이상">
                                 <label class="form-check-label" for="age6">60세 이상</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" name="Age" id="age0" value="option0" checked>
-                                <label class="form-check-label" for="age1">연령무관</label>
+                                <input class="form-check-input" type="checkbox" name="Age" id="age0" value="연령무관" checked>
+                                <label class="form-check-label" for="age0">연령무관</label>
                             </div>
                         </div>
                     </div>
@@ -150,7 +150,7 @@
                                 <label class="form-check-label" for="PC">PC</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" id="Anything" name="device" value="Anything" checked>
+                                <input class="form-check-input" type="checkbox" id="Anything" name="device" value="기기무관" checked>
                                 <label class="form-check-label" for="Anything">기기무관</label>
                             </div>
                         </div>
@@ -166,19 +166,19 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">1</div>
                             </div>
-                            <input type="text" class="form-control" id="check1" placeholder="서비스의 기능" readonly/>
+                            <input type="text" style="background-color: white" class="form-control" name="check" id="check1" placeholder="서비스의 기능" value="서비스의 기능" readonly/>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <div class="input-group-text">2</div>
                             </div>
-                            <input type="text" class="form-control" id="check2" placeholder="서비스의 디자인" readonly/>
+                            <input type="text" style="background-color: white" class="form-control" name="check" id="check2" placeholder="서비스의 디자인" value="서비스의 디자인" readonly/>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <div class="input-group-text">3</div>
                             </div>
-                            <input type="text" class="form-control" id="check3" placeholder="서비스의 편리성" readonly/>
+                            <input type="text" style="background-color: white" class="form-control" name="check" id="check3" placeholder="서비스의 편리성" value="서비스의 편리성" readonly/>
                         </div>
                     </div>
                     <div class="form-group">
@@ -187,31 +187,31 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text">Q1</div>
                             </div>
-                            <input type="text" class="form-control" id="question1" placeholder="ex) 이 서비스가 어떤 서비스라 생각되나요?"/>
+                            <input type="text" class="form-control" name="question" id="question1" placeholder="ex) 이 서비스가 어떤 서비스라 생각되나요?"/>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <div class="input-group-text">Q2</div>
                             </div>
-                            <input type="text" class="form-control" id="question2" placeholder="ex) 이 서비스를 사용하면서 전체적인 느낌은 어떠했나요? 그 이유는?"/>
+                            <input type="text" class="form-control" name="question" id="question2" placeholder="ex) 이 서비스를 사용하면서 전체적인 느낌은 어떠했나요? 그 이유는?"/>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <div class="input-group-text">Q3</div>
                             </div>
-                            <input type="text" class="form-control" id="question3" placeholder="ex) 이 서비스의 가장 마음에 드는 부분과 가장 마음에 들지 않는 부분은?"/>
+                            <input type="text" class="form-control" name="question" id="question3" placeholder="ex) 이 서비스의 가장 마음에 드는 부분과 가장 마음에 들지 않는 부분은?"/>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <div class="input-group-text">Q4</div>
                             </div>
-                            <input type="text" class="form-control" id="question4" placeholder="ex) 추가하고 싶은 기능 및 개선점이 있나요? 그 이유는?"/>
+                            <input type="text" class="form-control" name="question" id="question4" placeholder="ex) 추가하고 싶은 기능 및 개선점이 있나요? 그 이유는?"/>
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <div class="input-group-text">Q5</div>
                             </div>
-                            <input type="text" class="form-control" id="question5" placeholder="ex) 이 서비스를 계속 사용하거나 주변에 추천하고 싶은 서비스인가요?"/>
+                            <input type="text" class="form-control" name="question" id="question5" placeholder="ex) 이 서비스를 계속 사용하거나 주변에 추천하고 싶은 서비스인가요?"/>
                         </div>
                     </div>
                     <!--<button class="btn btn-primary" onclick="ValidateForm(this.form)">Submit form</button> -->
@@ -244,324 +244,324 @@
                     <div class="container  col-lg-12 mx-auto">
                         <div class="fresh-table">
 
-                            <table id="fresh-table" class="table">
-                                <br><br> <div class="col-lg-12" id="resultTester"></div>
-                                <thead class="tableheader"><!--번호,나이,등급,테스트기기,취미,-->
-                                <th data-field="TesterNum"></th>
-                                <th data-field="job">직업</th>
-                                <th data-field="name" data-sortable="true">나이,성별</th>
-                                <th data-field="grade" data-sortable="true">등급</th>
-                                <th data-field="device" data-sortable="true">기종</th>
-                                <th data-field="hobby">취미</th>
-                                <th data-field="actions" data-formatter="operateFormatter" data-events="operateEvents"></th>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>학생</td>
-                                    <td>25 여</td>
-                                    <td>3.2</td>
-                                    <td>아이폰XS</td>
-                                    <td>운동,화장품 수집,드라마 시청</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>학생</td>
-                                    <td>23 여</td>
-                                    <td>3.5</td>
-                                    <td>아이폰XS</td>
-                                    <td>운동, 등산, 드라마, 사진찍기, 야구, 아이쇼핑, 컴퓨터</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>학생</td>
-                                    <td>24 여</td>
-                                    <td>3.5</td>
-                                    <td>아이폰8</td>
-                                    <td>요리, 인테리어, 글쓰기, 자전거, 넷플릭스, 그림그리기, 독서</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>직장</td>
-                                    <td>27 남</td>
-                                    <td>2.8</td>
-                                    <td>갤럭시S10</td>
-                                    <td>운동, 드럼, 기계만지기</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>학생</td>
-                                    <td>23 여</td>
-                                    <td>3.3</td>
-                                    <td>아이폰7</td>
-                                    <td>사진 촬영 및 보정, 악기 연주(기타, 첼로, 피아노), 독서, 홈트레이니, 요리, 가드닝, 글쓰기, 영상 편집, 미국 드라마</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>학생</td>
-                                    <td>26 남</td>
-                                    <td>3.3</td>
-                                    <td>아이폰7</td>
-                                    <td>운동, 노래, 영화감상, 산책, 독서</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>학생</td>
-                                    <td>22 남</td>
-                                    <td>3.2</td>
-                                    <td>아이폰7</td>
-                                    <td>IT, 패션, 컴퓨터, 전자기기, 쇼핑</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>8</td>
-                                    <td>학생</td>
-                                    <td>24 여</td>
-                                    <td>3.3</td>
-                                    <td>노트8</td>
-                                    <td>영화, 음악, 사진찍기, 화장품 리뷰 검색</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>9</td>
-                                    <td>학생</td>
-                                    <td>25 남</td>
-                                    <td>3.4</td>
-                                    <td>노트9</td>
-                                    <td>음악, 게임, 지식, 운동, 여행, 탐구</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>10</td>
-                                    <td>학생</td>
-                                    <td>24 여</td>
-                                    <td>3.8</td>
-                                    <td>아이폰8</td>
-                                    <td>영화감상, 산책, 미술, 디자인</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>11</td>
-                                    <td>학생</td>
-                                    <td>24 여</td>
-                                    <td>3.5</td>
-                                    <td>갤럭시S20+</td>
-                                    <td>사진, 그림, 노래, 독서, 요리, 쇼핑</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>12</td>
-                                    <td>학생</td>
-                                    <td>21 여</td>
-                                    <td>3.3</td>
-                                    <td>노트9</td>
-                                    <td>웹 소설, 웹툰, 음악, 춤추기, 글쓰기, 다이어리, 소설, 연예인, 여행</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>13</td>
-                                    <td>학생</td>
-                                    <td>20 여</td>
-                                    <td>3.2</td>
-                                    <td>아이폰6</td>
-                                    <td>축구, 아이쇼핑, 게임, 앱공부, 드라마, 영화</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>14</td>
-                                    <td>학생</td>
-                                    <td>25 여</td>
-                                    <td>2.5</td>
-                                    <td>아이폰8</td>
-                                    <td>독서, 유투브, 넷플릭스, 왓챠</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>15</td>
-                                    <td>학생</td>
-                                    <td>20 남</td>
-                                    <td>3.2</td>
-                                    <td>아이폰11PRO</td>
-                                    <td>자전거, 야구, 축구, 탁구, 컴퓨터, 스마트폰, 헬스, 맨몸운동, 운전, 맛집탐방, 요리프로 보기, 디시</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>16</td>
-                                    <td>학생</td>
-                                    <td>21 여</td>
-                                    <td>3.3</td>
-                                    <td>아이폰8</td>
-                                    <td>사진/영상 촬영 및 편집, 블로그, 맛집 탐방, 운동, 반려동물 키우기, 게임</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>17</td>
-                                    <td>학생</td>
-                                    <td>24 여</td>
-                                    <td>2.4</td>
-                                    <td>갤럭시S7Edge</td>
-                                    <td>랠리그라피, 음악감상, 패션, 뷰티, 커뮤니티</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>18</td>
-                                    <td>학생</td>
-                                    <td>23 여</td>
-                                    <td>3.3</td>
-                                    <td>갤럭시S8</td>
-                                    <td>인스타그램, 맛집 탐방, 넷플릭스, 게임(배틀그라운드/성장형 게임), 사진찍기, 산책하기, 요리, 유투브, e북</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>19</td>
-                                    <td>학생</td>
-                                    <td>25 남</td>
-                                    <td>3.3</td>
-                                    <td>LGQ6</td>
-                                    <td>산책, 독서, 웹서핑, 게임</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>20</td>
-                                    <td>학생</td>
-                                    <td>24 남</td>
-                                    <td>3.1</td>
-                                    <td>노트10+</td>
-                                    <td>자기, 먹기, 등산, 휴대폰, 컴퓨터</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>21</td>
-                                    <td>학생</td>
-                                    <td>24 여</td>
-                                    <td>3.3</td>
-                                    <td>아이폰SE</td>
-                                    <td>SNS, 블로그, 음악, 유투브, 독서, 요리</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>22</td>
-                                    <td>직장</td>
-                                    <td>26 남</td>
-                                    <td>3.4</td>
-                                    <td>아이폰6S</td>
-                                    <td>운동, 맛집탐방, 독서, IT</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>23</td>
-                                    <td>학생</td>
-                                    <td>23 남</td>
-                                    <td>3.7</td>
-                                    <td>갤럭시S9</td>
-                                    <td>영화, 코딩, 배드민턴, 운동</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>24</td>
-                                    <td>학생</td>
-                                    <td>26 남</td>
-                                    <td>3.8</td>
-                                    <td>노트8</td>
-                                    <td>영화, 음악, 쇼핑, 게임</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>25</td>
-                                    <td>학생</td>
-                                    <td>22 남</td>
-                                    <td>3.4</td>
-                                    <td>갤럭시S10</td>
-                                    <td>불어, AI, 운동, 자기개발, 음악 감상</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>26</td>
-                                    <td>학생</td>
-                                    <td>23 여</td>
-                                    <td>3.3</td>
-                                    <td>LGG7</td>
-                                    <td>메이크업, 유투브, 게임, 그림, 음악</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>27</td>
-                                    <td>학생</td>
-                                    <td>23 여</td>
-                                    <td>3.3</td>
-                                    <td>갤럭시S9</td>
-                                    <td>웹툰, 만화, 음악, 다이어리, 바이올린, 피아노, 수영, 헬스, 유투브, 디자인, 미술관, 전시회</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>28</td>
-                                    <td>직장</td>
-                                    <td>27 여</td>
-                                    <td>3.3</td>
-                                    <td>갤럭시S8</td>
-                                    <td>수영, 피아노, 영화, 드라이브, 게임, 자전거, 전시회, 음악, 독서, 일러스트</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>29</td>
-                                    <td>직장</td>
-                                    <td>27 남</td>
-                                    <td>3.3</td>
-                                    <td>갤럭시폴드</td>
-                                    <td>독서, 축구, 야구</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>30</td>
-                                    <td>학생</td>
-                                    <td>여 20</td>
-                                    <td>3.4</td>
-                                    <td>아이폰11PROMAX</td>
-                                    <td>일기, 사진, 독서, 글쓰기, 영화</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>31</td>
-                                    <td>학생</td>
-                                    <td>여 21</td>
-                                    <td>3.1</td>
-                                    <td>아이폰8</td>
-                                    <td>음악감상, 인터넷 쇼핑, 자전거, 맛집</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>32</td>
-                                    <td>학생</td>
-                                    <td>여 20</td>
-                                    <td>3.3</td>
-                                    <td>아이폰7</td>
-                                    <td>그림 그리기, 캘리그라피, 음악 감상</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>33</td>
-                                    <td>학생</td>
-                                    <td>남 20</td>
-                                    <td>2.9</td>
-                                    <td>갤럭시S10</td>
-                                    <td>유투브, 전자기기 구입, 헬스</td>
-                                    <td></td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
+            <table id="fresh-table" class="table">
+                <br><br> <div class="col-lg-12" id="resultTester"></div>
+                <thead class="tableheader"><!--번호,나이,등급,테스트기기,취미,-->
+                <th data-field="TesterNum"></th>
+                <th data-field="job">직업</th>
+                <th data-field="name" data-sortable="true">나이,성별</th>
+                <th data-field="grade" data-sortable="true">등급</th>
+                <th data-field="device" data-sortable="true">기종</th>
+                <th data-field="hobby">취미</th>
+                <th data-field="actions" data-formatter="operateFormatter" data-events="operateEvents"></th>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>학생</td>
+                    <td>25 여</td>
+                    <td>3.2</td>
+                    <td>아이폰XS</td>
+                    <td>운동,화장품 수집,드라마 시청</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>학생</td>
+                    <td>23 여</td>
+                    <td>3.5</td>
+                    <td>아이폰XS</td>
+                    <td>운동, 등산, 드라마, 사진찍기, 야구, 아이쇼핑, 컴퓨터</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>학생</td>
+                    <td>24 여</td>
+                    <td>3.5</td>
+                    <td>아이폰8</td>
+                    <td>요리, 인테리어, 글쓰기, 자전거, 넷플릭스, 그림그리기, 독서</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>직장</td>
+                    <td>27 남</td>
+                    <td>2.8</td>
+                    <td>갤럭시S10</td>
+                    <td>운동, 드럼, 기계만지기</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>학생</td>
+                    <td>23 여</td>
+                    <td>3.3</td>
+                    <td>아이폰7</td>
+                    <td>사진 촬영 및 보정, 악기 연주(기타, 첼로, 피아노), 독서, 홈트레이니, 요리, 가드닝, 글쓰기, 영상 편집, 미국 드라마</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>학생</td>
+                    <td>26 남</td>
+                    <td>3.3</td>
+                    <td>아이폰7</td>
+                    <td>운동, 노래, 영화감상, 산책, 독서</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>학생</td>
+                    <td>22 남</td>
+                    <td>3.2</td>
+                    <td>아이폰7</td>
+                    <td>IT, 패션, 컴퓨터, 전자기기, 쇼핑</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>학생</td>
+                    <td>24 여</td>
+                    <td>3.3</td>
+                    <td>노트8</td>
+                    <td>영화, 음악, 사진찍기, 화장품 리뷰 검색</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>학생</td>
+                    <td>25 남</td>
+                    <td>3.4</td>
+                    <td>노트9</td>
+                    <td>음악, 게임, 지식, 운동, 여행, 탐구</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>학생</td>
+                    <td>24 여</td>
+                    <td>3.8</td>
+                    <td>아이폰8</td>
+                    <td>영화감상, 산책, 미술, 디자인</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>학생</td>
+                    <td>24 여</td>
+                    <td>3.5</td>
+                    <td>갤럭시S20+</td>
+                    <td>사진, 그림, 노래, 독서, 요리, 쇼핑</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>학생</td>
+                    <td>21 여</td>
+                    <td>3.3</td>
+                    <td>노트9</td>
+                    <td>웹 소설, 웹툰, 음악, 춤추기, 글쓰기, 다이어리, 소설, 연예인, 여행</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>학생</td>
+                    <td>20 여</td>
+                    <td>3.2</td>
+                    <td>아이폰6</td>
+                    <td>축구, 아이쇼핑, 게임, 앱공부, 드라마, 영화</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>학생</td>
+                    <td>25 여</td>
+                    <td>2.5</td>
+                    <td>아이폰8</td>
+                    <td>독서, 유투브, 넷플릭스, 왓챠</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>학생</td>
+                    <td>20 남</td>
+                    <td>3.2</td>
+                    <td>아이폰11PRO</td>
+                    <td>자전거, 야구, 축구, 탁구, 컴퓨터, 스마트폰, 헬스, 맨몸운동, 운전, 맛집탐방, 요리프로 보기, 디시</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>학생</td>
+                    <td>21 여</td>
+                    <td>3.3</td>
+                    <td>아이폰8</td>
+                    <td>사진/영상 촬영 및 편집, 블로그, 맛집 탐방, 운동, 반려동물 키우기, 게임</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>학생</td>
+                    <td>24 여</td>
+                    <td>2.4</td>
+                    <td>갤럭시S7Edge</td>
+                    <td>랠리그라피, 음악감상, 패션, 뷰티, 커뮤니티</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>학생</td>
+                    <td>23 여</td>
+                    <td>3.3</td>
+                    <td>갤럭시S8</td>
+                    <td>인스타그램, 맛집 탐방, 넷플릭스, 게임(배틀그라운드/성장형 게임), 사진찍기, 산책하기, 요리, 유투브, e북</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>학생</td>
+                    <td>25 남</td>
+                    <td>3.3</td>
+                    <td>LGQ6</td>
+                    <td>산책, 독서, 웹서핑, 게임</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>학생</td>
+                    <td>24 남</td>
+                    <td>3.1</td>
+                    <td>노트10+</td>
+                    <td>자기, 먹기, 등산, 휴대폰, 컴퓨터</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>학생</td>
+                    <td>24 여</td>
+                    <td>3.3</td>
+                    <td>아이폰SE</td>
+                    <td>SNS, 블로그, 음악, 유투브, 독서, 요리</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>직장</td>
+                    <td>26 남</td>
+                    <td>3.4</td>
+                    <td>아이폰6S</td>
+                    <td>운동, 맛집탐방, 독서, IT</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>학생</td>
+                    <td>23 남</td>
+                    <td>3.7</td>
+                    <td>갤럭시S9</td>
+                    <td>영화, 코딩, 배드민턴, 운동</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>학생</td>
+                    <td>26 남</td>
+                    <td>3.8</td>
+                    <td>노트8</td>
+                    <td>영화, 음악, 쇼핑, 게임</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>학생</td>
+                    <td>22 남</td>
+                    <td>3.4</td>
+                    <td>갤럭시S10</td>
+                    <td>불어, AI, 운동, 자기개발, 음악 감상</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>학생</td>
+                    <td>23 여</td>
+                    <td>3.3</td>
+                    <td>LGG7</td>
+                    <td>메이크업, 유투브, 게임, 그림, 음악</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>학생</td>
+                    <td>23 여</td>
+                    <td>3.3</td>
+                    <td>갤럭시S9</td>
+                    <td>웹툰, 만화, 음악, 다이어리, 바이올린, 피아노, 수영, 헬스, 유투브, 디자인, 미술관, 전시회</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>직장</td>
+                    <td>27 여</td>
+                    <td>3.3</td>
+                    <td>갤럭시S8</td>
+                    <td>수영, 피아노, 영화, 드라이브, 게임, 자전거, 전시회, 음악, 독서, 일러스트</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>직장</td>
+                    <td>27 남</td>
+                    <td>3.3</td>
+                    <td>갤럭시폴드</td>
+                    <td>독서, 축구, 야구</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>학생</td>
+                    <td>여 20</td>
+                    <td>3.4</td>
+                    <td>아이폰11PROMAX</td>
+                    <td>일기, 사진, 독서, 글쓰기, 영화</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td>학생</td>
+                    <td>여 21</td>
+                    <td>3.1</td>
+                    <td>아이폰8</td>
+                    <td>음악감상, 인터넷 쇼핑, 자전거, 맛집</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>32</td>
+                    <td>학생</td>
+                    <td>여 20</td>
+                    <td>3.3</td>
+                    <td>아이폰7</td>
+                    <td>그림 그리기, 캘리그라피, 음악 감상</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>33</td>
+                    <td>학생</td>
+                    <td>남 20</td>
+                    <td>2.9</td>
+                    <td>갤럭시S10</td>
+                    <td>유투브, 전자기기 구입, 헬스</td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
 
-                        <br><a class="btn btn-primary btn-xl js-scroll-trigger" href="#about2" style="font-family: 'Philosopher', sans-serif;">다음</a>
+            <br><a class="btn btn-primary btn-xl js-scroll-trigger" href="#about2" style="font-family: 'Philosopher', sans-serif;">다음</a>
 
-                    </div> <!--<div class="container">-->
-                </section>
-            </div>
+        </div> <!--<div class="container">-->
+</section>
+</div>
         </div>
     </div>
 </section>
@@ -587,7 +587,8 @@
                         <input type="text" class="form-control" id="InputPhone" placeholder="010-1234-5678" checked>
                         </div>
                     </div>
-                    <button class="btn btn-info btn-xl js-scroll-trigger" type="submit" onclick="location.html='index23.html'"><a href="index23.html">제출하기</a></button>
+                    <button class="btn btn-info btn-xl js-scroll-trigger" type="submit" id="dataSubmit">제출하기</button>
+                    <!--<button class="btn btn-info btn-xl js-scroll-trigger" type="submit" onclick="location.html='index23.html'">제출하기</button>-->
                 </form>
                     </div>
                 </div>
@@ -635,7 +636,6 @@
 
 <script type="text/javascript">
     var $table = $('#fresh-table')
-    // var $alertBtn = $('#alertBtn')
 
     window.operateEvents = {
         'click .like': function (e, value, row, index) {
@@ -670,8 +670,8 @@
             pagination: true,
             striped: true,
             sortable: true,
-            pageSize: 8,
-            pageList: [8, 10, 25, 50, 100],
+            pageSize: 10,
+            pageList: [10, 20,30,50,100],
 
             formatShowingRows: function (pageFrom, pageTo, totalRows) {
                 return ''
@@ -679,6 +679,47 @@
             formatRecordsPerPage: function (pageNumber) {
                 return pageNumber + ' rows visible'
             }
+        })
+    })
+    $(document).ready(function(){
+        $('button#dataSubmit').click(function(){
+
+            var client = $('input#client').val();
+            var inputAW = $('input#inputAW').val();
+            var inputService = $('textarea#inputService').val();
+            var age = $('input:checkbox[name="Age"]:checked');
+            var ageArr = new Array();
+            age.each(function(i){
+                ageArr.push(age.eq(i).val());
+            })
+            var device = $('input:checkbox[name="device"]:checked');
+            var deviceArr = new Array();
+            device.each(function (i) {
+                deviceArr.push(device.eq(i).val());
+            })
+            var testDetails = $('textarea#testDetails').val();
+            var tester = $("div#resultTester").text();
+            var checklist = $('input:text[name="check"]');
+            var checkArr = new Array();
+            checklist.each(function(i){
+                    checkArr.push(checklist.eq(i).val());
+            })
+            var question = $('input:text[name="question"]');
+            var quesArr = new Array();
+            question.each(function(i){
+                if(question.eq(i).val()=="")
+                quesArr.push(question.eq(i).attr('placeholder').substring(4,question.eq(i).attr('placeholder').length));
+                else{
+                    quesArr.push(question.eq(i).val());
+                }
+            })
+            var clEmail = $('input#InputEmail').val();
+            var clPhoneNum = $('input#InputPhone').val();
+
+            var result = confirm('입력한 그대로 제출하시겠습니까?');
+            if(result){
+                location.replace('index22.html');
+            }else{}
         })
     })
 
