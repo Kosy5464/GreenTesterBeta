@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--테스트 진행하는 페이지-->
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Green Tester - Beta GreenTester</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- font-->
+  <!--https://fonts.google.com/?sidebar.open&query=na&preview.text=Company&preview.text_type=custom&selection.family=Philosopher-->
+  <!--위에 주소에서 폰트 가져올 수 있고 사용법도 있음-->
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
+</head>
+
+<!--stylish-portfolio.min.css에서 왠만한 색깔 수정!!-->
+
+
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background-color: rgb(28, 29, 28); opacity: 0.9; font-family: 'Philosopher', sans-serif;">
+      <!--스타일 페이지로 넘어가면 바뀌도록 변경-->
+      <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-fluid" src="img/logo.png" width="280" alt="">
+          </a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="color:white; font-family: 'Roboto', sans-serif; font-size: 15px">Menu <i class="fas fa-bars"></i></button>
+          
+      </div>
+  </nav>
+  
+
+
+  <!-- Header -->
+  <!--masthed d-flex가 bg-masthead.jpg랑 이어짐!-->
+
+
+
+
+  <!-- 테스트지 작성 페이지 -->
+  <section class="callout2" id="test1" style="font-family: 'Nanum Gothic Coding', monospace;">
+      <div class="container ">
+          <div class="content-section-heading text-center">
+              <h3 class="text-secondary mb-0"><br><br><br><br><br>Process 1</h3><br>
+              <h2 class="mb-5" style="font-family: 'Philosopher', sans-serif;">테스트지 작성</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-7 mx-auto">
+                <div class="text-center"> <img class="img-fluid" src="img/index2_logo.png" width="400" display="block" margin="0px auto" alt=""></div><hr>
+             <form>
+                <div class="form-group row">
+                    <label for="client" class="col-sm-2 col-form-label">의뢰 고객</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" name='client'id="client" placeholder="ex)홍길동" required>
+                            <div class="invalid-tooltip">
+                            필수 입력란 입니다.
+                        </div>
+                        </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputAW" class="col-sm-2 col-form-label">App/Web 명</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="inputAW" placeholder="ex)그린 테스터 어플" required>
+                        </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputService" class="col-sm-2 col-form-label">서비스 요약</label>
+                        <div class="col-sm-9">
+                            <textarea type="text" class="form-control" id="inputService" placeholder="ex)사용자 테스트를 진행하여..." required></textarea>
+                        </div>
+                </div>
+                <div class="form-group row">
+                      <label for="inputAge" class="col-sm-2 col-form-label">대상연령</label>
+                    <div class="col-sm-10">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="Age" id="age1" value="option1">
+                        <label class="form-check-label" for="age1">10~19</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="Age" id="age2" value="option2">
+                        <label class="form-check-label" for="age2">20~29</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="Age" id="age3" value="option3">
+                        <label class="form-check-label" for="age3">30~39</label>
+                    </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="Age" id="age4" value="option4">
+                        <label class="form-check-label" for="age4">40~49</label>
+                     </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="Age" id="age5" value="option5">
+                        <label class="form-check-label" for="age5">50~59</label>
+                    </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="Age" id="age6" value="option6">
+                        <label class="form-check-label" for="age6">60세 이상</label>
+                    </div>
+                         <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="Age" id="age0" value="option0" checked>
+                        <label class="form-check-label" for="age1">연령무관</label>
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                      <label for="inputDevice" class="col-sm-2 col-form-label">사용기기</label>
+                    <div class="col-sm-5">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="device" id="android" value="android">
+                        <label class="form-check-label" for="android">Android</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="device" id="ios" value="ios">
+                        <label class="form-check-label" for="ios">ios</label>
+                    </div>       
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="PC" name="device" value="PC">
+                        <label class="form-check-label" for="PC">PC</label>
+                    </div>    
+                     <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="Anything" name="device" value="Anything" checked>
+                        <label class="form-check-label" for="Anything">기기무관</label>
+                    </div> 
+                    </div>
+                </div>
+                <hr>
+                 <div class="form-group">
+                    <label for="testDetails" class="testDetails">테스트 요청사항</label>
+                    <textarea class="form-control" id="testDetails" rows="5" placeholder="테스트를 통해 얻고 싶은 부분, 테스터들의 시스템 이해도 확인을 간단한 질문 등" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="ckecklist" class="ckecklist">* 체크리스트(고정)</label>
+                     <div class="input-group">
+                         <div class="input-group-prepend">
+                             <div class="input-group-text">1</div>
+                         </div>
+                         <input type="text" class="form-control" id="check1" placeholder="서비스의 기능" readonly/>
+                    </div>
+                    <div class="input-group">
+                         <div class="input-group-prepend">
+                             <div class="input-group-text">2</div>
+                         </div>
+                         <input type="text" class="form-control" id="check2" placeholder="서비스의 디자인" readonly/>
+                    </div>
+                    <div class="input-group">
+                         <div class="input-group-prepend">
+                             <div class="input-group-text">3</div>
+                         </div>
+                         <input type="text" class="form-control" id="check3" placeholder="서비스의 편리성" readonly/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="question" class="question">* 질문 <br>(입력가능, 미 입력 시 예시 질문으로 진행 됩니다.)</label>
+                     <div class="input-group">
+                         <div class="input-group-prepend">
+                             <div class="input-group-text">Q1</div>
+                         </div>
+                         <input type="text" class="form-control" id="question1" placeholder="이 서비스가 어떤 서비스라 생각되나요?"/>
+                    </div>
+                    <div class="input-group">
+                         <div class="input-group-prepend">
+                             <div class="input-group-text">Q2</div>
+                         </div>
+                         <input type="text" class="form-control" id="question2" placeholder="이 서비스를 사용하면서 전체적인 느낌은 어떠했나요? 그 이유는?"/>
+                    </div>
+                    <div class="input-group">
+                         <div class="input-group-prepend">
+                             <div class="input-group-text">Q3</div>
+                         </div>
+                         <input type="text" class="form-control" id="question3" placeholder="이 서비스의 가장 마음에 드는 부분과 가장 마음에 들지 않는 부분은?"/>
+                    </div>
+                    <div class="input-group">
+                         <div class="input-group-prepend">
+                             <div class="input-group-text">Q4</div>
+                         </div>
+                         <input type="text" class="form-control" id="question4" placeholder="추가하고 싶은 기능 및 개선점이 있나요? 그 이유는?"/>
+                    </div>
+                    <div class="input-group">
+                         <div class="input-group-prepend">
+                             <div class="input-group-text">Q5</div>
+                         </div>
+                         <input type="text" class="form-control" id="question5" placeholder="이 서비스를 계속 사용하거나 주변에 추천하고 싶은 서비스인가요?"/>
+                    </div>
+                </div>
+                 <!--<button class="btn btn-primary" onclick="ValidateForm(this.form)">Submit form</button> -->
+                 <div class="container text-center">
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" style="font-family: 'Philosopher', sans-serif;">다음</a>
+                </div>
+            </form>
+           </div>
+          </div>
+        </div>
+    </section>
+
+
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center">
+            <h2 class="mb-5" style="font-family: 'Philosopher', sans-serif;">위에 정보가 맞나요?</h2>
+            <button type="submit" ><a href="index23.html">제출하기</button><br>
+            <!--데이터들 서버로 전송하고 다음 페이지로 이동-->
+          
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+ 
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer text-center" style="background-color:black; opacity: 0.9;">
+      <div class="container">
+          <nav class="pull-left">            
+              <a href="index3.html"> 
+                  <span style="font-size:20px; color: rgb(229, 250, 224);font-family: 'Nanum Gothic Coding', monospace;">회사 소개</span>
+              </a>
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              <a href="https://blog.naver.com/gajahcompany" target="_blank">
+                <span style="font-size:20px; color:rgb(229, 250, 224);font-family: 'Nanum Gothic Coding', monospace;" >블로그</span>
+              </a>
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+               <a href="index4.html">
+                  <span style="font-size:20px; color: rgb(229, 250, 224) ; font-family: 'Nanum Gothic Coding', monospace;">테스터 지원</span>
+                </a>
+           </nav>
+          <br><img class="img-fluid" src="img/1logo.png" width="300" alt=""><br>
+           <div class="copyright" style="color:rgb(229, 250, 224)">
+              <span style="font-size:15px; text-emphasis-position: center; font-family: 'Roboto', sans-serif;">Copyright &copy; GAJAH 2019. All Rights Reserved</span>
+              <br><span style="font-size:15px; text-emphasis-position: center; font-family: 'Roboto', sans-serif;">gajahcompany@gmail.com</span>
+              <br><span style="font-size:12px; text-emphasis-position: center; ">사업자 등록 번호: 642-12-01053</span>
+              <span style="font-size:12px; text-emphasis-position: center">&nbsp; 통신 판매업: 2020-경기시흥-1049</span>
+              <br><span style="font-size:12px; text-emphasis-position: center">대표자: 고수열</span>
+          </div>
+        </div>
+  </footer>
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/stylish-portfolio.min.js"></script>
+
+</body>
+
+</html>
