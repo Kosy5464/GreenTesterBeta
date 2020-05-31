@@ -716,6 +716,7 @@
             var clEmail = $('input#InputEmail').val();
             var clPhoneNum = $('input#InputPhone').val();
 
+            event.preventDefault()
             var result = confirm('입력한 그대로 제출하시겠습니까?');
             if(result){
                 location.replace('index22.html');
