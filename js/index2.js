@@ -66,16 +66,16 @@ $(document).ready(function(){
 
       $('button#finalSubmit').click(function(){
           firebase.database().ref('/customer/'+clPhoneNum).set({
-              clientName:client,
-              AppWeb: inputAW,
-              service: inputService,
-              age:ageArr,
-              device:deviceArr,
-              testDetails:testDetails,
-              checklist: checkArr,
-              question:quesArr,
-              testerID:tester,
-              clientEmail: clEmail,
+                A_clientName:client,
+                B_AppWeb: inputAW,
+                C_service: inputService,
+                D_age:ageArr,
+                E_device:deviceArr,
+                F_testDetails:testDetails,
+                G_checklist: checkArr,
+                H_question:quesArr,
+                I_testerID:tester,
+                J_clientEmail: clEmail,
 
           });
           alert('제출이 완료되었습니다.')
