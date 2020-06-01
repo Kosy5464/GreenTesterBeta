@@ -33,13 +33,8 @@ $(document).ready(function(){
       var clEmail = $('input#InputEmail').val();
       var clPhoneNum = $('input#InputPhone').val();
 
-      event.preventDefault();
-      var result = confirm('입력한 그대로 제출하시겠습니까?');
-      if(result){
-          window.location.replace('index22.html?client='+client);
-          //var str = document.getElementById("client");
-
-
-      }else{}
+      document.getElementById("modalContent").innerHTML = '<br><br><b>의뢰인</b> : '+client+'<br>'+'<b>App/Web 명</b> : '+inputAW+'<br>'+
+          '<b>대상연령</b> : '+ageArr +'<br>'+'<b>사용기기</b> : '+deviceArr +'<br><br>-------<br><br>'+'<h3>서비스 요약</h3> : '+inputService+'<br><br>'+'<h3>테스트 요청사항</h3>'+testDetails +'<br><br>'+'<h3>체크 사항</h3>'+checkArr+
+          '<br><br>'+'<h3>질문 리스트</h3>'+'Q1.'+quesArr[0]+'<br>Q2.'+quesArr[1]+'<br>Q3.'+quesArr[2]+'<br>Q4.'+quesArr[3]+'<br>Q5.'+quesArr[4]+'<br><br><br>-------<br><br><b>Tester ID</b> :'+tester+'<br><br>-------<br><br>'+'<b>E-mail</b> : '+clEmail+'<br>'+'<b>연락처</b> : '+clPhoneNum+'<br><br>';
   })
 })
