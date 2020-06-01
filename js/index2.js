@@ -2,7 +2,6 @@
 $(document).ready(function(){
   $('button#dataSubmit').click(function(){
       (function() {
-
               const config = {
                   apiKey: "AIzaSyD3JYOzS03azOnDWPE_egzd-MeAQcRK6yc",
                   authDomain: "greentesterbeta.firebaseapp.com",
@@ -22,13 +21,15 @@ $(document).ready(function(){
               const dbRefObject = firebase.database().ref().child('custom');
               // .ref()는 데이터베이스의 루트로 접근하게 함.
               // .child()는 객체의 child 키를 생성함 (해당 키의 값을 찾는듯)
-
-
           }
           ()
       );
-
       var client = $('input#client').val();
+
+      $('#client').on('change',function(){
+         var a = $(this).val();
+         console.log(a);
+      });
       var inputAW = $('input#inputAW').val();
       var inputService = $('textarea#inputService').val();
       var age = $('input:checkbox[name="Age"]:checked');

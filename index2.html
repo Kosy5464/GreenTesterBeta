@@ -82,7 +82,7 @@
         <div class="row">
             <div class="col-lg-7 mx-auto">
                 <div class="text-center"><img class="img-fluid" src="img/index2_logo.png" width="400" display="block" margin="0px auto" alt=""></div><hr>
-                <form>
+                <form name="test">
                     <div class="form-group row">
                         <label for="client" class="col-sm-2 col-form-label">의뢰 고객</label>
                         <div class="col-sm-4">
@@ -219,7 +219,9 @@
                     </div>
                     <!--<button class="btn btn-primary" onclick="ValidateForm(this.form)">Submit form</button> -->
                     <div class="container text-center">
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" style="font-family: 'Philosopher', sans-serif;">다음</a>
+                        <button type="button" class="btn btn-primary btn-xl js-scroll-trigger" onclick="location.href='#about'"style="font-family: 'Philosopher', sans-serif;">
+                            다음
+                        </button>
                     </div>
                 </form>
             </div>
@@ -559,8 +561,9 @@
                 </tbody>
             </table>
         </div>
-
-            <br><a class="btn btn-primary btn-xl js-scroll-trigger" href="#about2" style="font-family: 'Philosopher', sans-serif;">다음</a>
+                        <button type="button" class="btn btn-primary btn-xl js-scroll-trigger" onclick="location.href='#about2'"style="font-family: 'Philosopher', sans-serif;">
+                            다음
+                        </button>
 
         </div> <!--<div class="container">-->
 </section>
@@ -582,15 +585,18 @@
                 <form>
                     <div class="form-group row">
                         <div class="col-sm-2"><label for="InputEmail">E-mail</label></div>
-                        <div class="col-sm-9"><input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="gajah@example.com" checked></div>
+                        <div class="col-sm-9"><input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="gajah@example.com" required></div>
                     </div>
                     <div class="form-group row">
                         <div class="col-sm-2"><label for="InputPhone">연락처</label></div>
                         <div class="col-sm-9">
-                        <input type="text" class="form-control" id="InputPhone" placeholder="010-1234-5678" checked>
+                        <input type="number" class="form-control" id="InputPhone" placeholder="010-1234-5678" required>
                         </div>
                     </div>
-                    <button type="button" class="btn btn-info btn-xl" data-toggle="modal" data-target=".totalModal" id="dataSubmit">
+                    <script>
+
+                    </script>
+                    <button type="submit" class="btn btn-info btn-xl" data-toggle="modal" data-target=".totalModal" id="dataSubmit">
                         제출하기
                     </button>
 
@@ -664,6 +670,7 @@
 
 <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
 <script src="js/index2.js"></script>
+<script src="js/validCheck.js"></script>
 
 
 <script type="text/javascript">
