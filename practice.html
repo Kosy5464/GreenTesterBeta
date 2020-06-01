@@ -93,7 +93,15 @@
 
 
 <script type="text/javascript">
-   var checkbox = $("input[name=]")
+   var checkbox = $("input[name=TesterNum]:checked");
+   var col1 ='';
+   checkbox.each(function (i) {
+        var tr = checkbox.parent().parent().eq(i);
+        var td = tr.children();
+
+        col1 = td.eq(0).text();
+       $("#resultTester").html("체크된 Tester ID : "+String(rowData));
+   })
 </script>
 
 </html>
