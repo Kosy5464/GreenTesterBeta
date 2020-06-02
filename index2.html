@@ -86,7 +86,7 @@
                     <div class="form-group row">
                         <label for="client" class="col-sm-2 col-form-label">의뢰 고객</label>
                         <div class="col-sm-4">
-                            <input type="text" class="form-control" name='client'id="client" placeholder="ex)홍길동" required>
+                            <input type="text" class="form-control" name='client'id="client" placeholder="ex)홍길동" autofocus required>
                             <div class="invalid-tooltip">
                                 필수 입력란 입니다.
                             </div>
@@ -219,7 +219,7 @@
                     </div>
                     <!--<button class="btn btn-primary" onclick="ValidateForm(this.form)">Submit form</button> -->
                     <div class="container text-center">
-                        <button type="button" class="btn btn-primary btn-xl js-scroll-trigger" onclick="location.href='#about'"style="font-family: 'Philosopher', sans-serif;">
+                        <button type="button" id="test" class="btn btn-primary btn-xl js-scroll-trigger" style="font-family: 'Philosopher', sans-serif;">
                             다음
                         </button>
                     </div>
@@ -590,37 +590,21 @@
                     <div class="form-group row">
                         <div class="col-sm-2"><label for="InputPhone">연락처</label></div>
                         <div class="col-sm-9">
-                        <input type="number" class="form-control" id="InputPhone" placeholder="010-1234-5678" required>
+                        <input type="tel" class="form-control" id="InputPhone" placeholder="010-1234-5678" required>
                         </div>
                     </div>
                     <script>
 
                     </script>
-                    <button type="submit" class="btn btn-info btn-xl" data-toggle="modal" data-target=".totalModal" id="dataSubmit">
+                    <button type="button" class="btn btn-info btn-xl" data-toggle="modal" data-target=".totalModal" id="dataSubmit">
                         제출하기
                     </button>
 
                    <!-- <button class="btn btn-info btn-xl js-scroll-trigger" type="submit" id="dataSubmit">제출하기</button>-->
                     <!--<button class="btn btn-info btn-xl js-scroll-trigger" type="submit" onclick="location.html='index23.html'">제출하기</button>-->
                     <!-- Modal -->
-                    <div class="modal fade totalModal" tabindex="-1" role="dialog" aria-labelledby="totalModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">입력 내용 확인</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body" id="modalContent">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-primary"  id="finalSubmit" onclick="location.href='index23.html'">확인</button>
-                                    <button type="button" class="btn btn-default"  data-dismiss="modal">취소</button>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="modal fade totalModal" id="modal" tabindex="-1" role="dialog" aria-labelledby="totalModalLabel" aria-hidden="true">
+
                     </div>
                 </form>
                     </div>
