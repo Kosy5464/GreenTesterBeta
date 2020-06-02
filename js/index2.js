@@ -1,3 +1,5 @@
+//파이어 베이스 관련 js입니다
+
 
 $(document).ready(function(){
   $('button#dataSubmit').click(function(){
