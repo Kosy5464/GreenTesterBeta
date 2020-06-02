@@ -1,6 +1,6 @@
 $(function(){
     //test지의 필수 입력값을 검사하는 부분
-    $('button#test').click(function(){
+    $('button#testpage').click(function(){
         var client = $('input#client').val();
         var inputAW = $('input#inputAW').val();
         var inputService = $('textarea#inputService').val();
