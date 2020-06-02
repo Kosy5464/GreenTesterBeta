@@ -28,13 +28,7 @@
           
           // 가져온 값을 배열에 담는다.
           tdArr.push(number);
-          //tdArr.push(userid);
 
-          
-          //console.log("no : " + no);
-          //console.log("userid : " + userid);
-          //console.log("name : " + name);
-          //console.log("email : " + email);
         });
         
         $("#resultTester").html("<br> 선택한 테스터의 번호 = "+tdArr);	
@@ -61,6 +55,7 @@
         //[]인덱스 안에 번호에 따라서 name의 검색할지 Countrty에 검색할지 결정
 		//td = tr[i].getElementsByTagName("td")[1];
 		
+	      //선택된 라디오 버튼에 맞는 검색값 출력
 		for(var j=0;j<radiogaga.length;j++){
 			if(radiogaga[j].checked){
 				console.log(radiogaga[j].checked);
