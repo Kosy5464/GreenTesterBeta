@@ -29,5 +29,10 @@ Contact us: gajahcompany@gmail.com
 
 ![image](https://user-images.githubusercontent.com/48445082/83547081-a6022280-a53c-11ea-9191-7a8511abebd3.png)
 
+<br><br>
+<h3> Final Hompage UI </h3>
+
+![finalHompage](https://user-images.githubusercontent.com/48445082/83610447-62e69480-a5ba-11ea-97d5-0b4b008ebb12.jpg)
+
 
 
