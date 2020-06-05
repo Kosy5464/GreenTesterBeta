@@ -221,7 +221,7 @@ h6 {
 
 .callout2 {
   padding: 12rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/2bg-callout2.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout4.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -230,6 +230,13 @@ h6 {
 .callout3 {
   padding: 14rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.callout3 {
+  padding: 14rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout4.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -379,4 +386,3 @@ a:hover, a:focus, a:active {
 .text-secondary {
   color: #ecb807 !important;
 }
-.required input:after { content:"*"; }
