@@ -71,3 +71,23 @@ function myFunction() {
         }
     }
 }
+
+//체크박스 선택시 해당 행 배경색 변경
+function setBg(t){
+    tr = t.parentNode.parentNode;
+    tr.style.backgroundColor=(t.checked)? "#d4edda":"";
+}
+
+//Tester Reset 부분(체크 취소, 색상 원상태, TesterID 보여준 값 지우기)
+function setCheckBox(t){
+    $("input[name=TesterNum]").prop("checked",false);
+    $(".testerList:odd").css("background-color","white");
+    $(".testerList:even").css("background-color","#eeeeee");
+    $(".testerList").hover(function () {
+        $(this).css("background-color","#d4edda");
+    },function(){
+        $(".testerList:odd").css("background-color","white");
+        $(".testerList:even").css("background-color","#eeeeee");
+    })
+    $("#resultTester").val(null);
+}

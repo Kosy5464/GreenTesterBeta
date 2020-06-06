@@ -32,10 +32,6 @@ $(document).ready(function(){
         //event.preventDefault();
         //test지 Input값 받아오는 부분
         var client = $('input#client').val();
-        $('#client').on('change',function(){
-           var a = $(this).val();
-           console.log(a);
-        });
         var inputAW = $('input#inputAW').val();
         var inputService = $('textarea#inputService').val();
         var age = $('input:checkbox[name="Age"]:checked');

@@ -247,8 +247,9 @@
                     <!--<div id="resultTester"></div>-->
                     <div class="form-group row">
                          <form class="form-inline mr-auto">
+
                             <div class="input-group md-form form-sm form-2 pl-0">
-                                <select>
+                                <select class="category">
                                     <option name="search1" value="total">전체&nbsp;&nbsp;&nbsp;</option>
                                     <option name="search1" value="job">직업</option>
                                     <option  name="search1" value="gender">성별</option>
@@ -256,10 +257,9 @@
                                     <option name="search1" value="device">기종</option>
                                     <option name="search1" value="hobby">취미</option>
                                 </select>
-                                <input class="form-control my-0 py-1 red-border" onkeyup="myFunction()" id="myInput" type="text" placeholder="카테고리에 맞는 정보로 검색해주세요.." aria-label="Search">
+                                <input class="form-control my-0 py-1 lime-border" onkeyup="myFunction()" id="myInput" type="text" placeholder="카테고리에 맞는 정보로 검색해주세요.." aria-label="Search">
                                 <div class="input-group-append">
-    <span class="input-group-text red lighten-3" id="basic-text1"><i class="fas fa-search text-grey"
-                                                                     aria-hidden="true"></i></span>
+    <span class="input-group-text lime lighten-2" id=""> <i class="fas fa-search" aria-hidden="true"></i></i></span>
                                 </div>
                             </div>
                         </form>
@@ -269,311 +269,311 @@
                         <thead>
                         <tr>
                             <th style="width:5%;">ID</th>
-                            <th style="width:10%;">직업</th>
+                            <th style="width:12%;">직업</th>
                             <th style="width:15%;">성별<small>(나이)</small></th>
-                            <th style="width:10%;">등급&nbsp;&nbsp;&nbsp;</th>
-                            <th style="width:10%;">기종&nbsp;&nbsp;</th>
-                            <th style="width:45%;">취미</th>
+                            <th style="width:11%;">등급&nbsp;&nbsp;&nbsp;</th>
+                            <th style="width:11%;">기종&nbsp;&nbsp;</th>
+                            <th style="width:41%;">취미</th>
                             <th style="width:5%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
                         </tr>
                         </thead>
                         <tbody id="myTable">
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">1</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(25)</td>
                             <td  style="width:10%;">3.2</td>
                             <td  style="width:10%;">아이폰XS</td>
                             <td  style="width:44%;">운동,화장품 수집,드라마 시청</td>
-                            <td  style="width:5%;"><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;"><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">2</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(23)</td>
                             <td  style="width:10%;">3.5</td>
                             <td  style="width:10%;">아이폰XS</td>
                             <td  style="width:44%;">운동, 등산, 드라마, 사진찍기, 야구, 아이쇼핑, 컴퓨터</td>
-                            <td  style="width:5%;"><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;"><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">3</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(24)</td>
                             <td  style="width:10%;">3.5</td>
                             <td  style="width:10%;">아이폰8</td>
                             <td  style="width:44%;">요리, 인테리어, 글쓰기, 자전거, 넷플릭스, 그림그리기, 독서</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">4</td>
                             <td  style="width:12%;">직장</td>
                             <td  style="width:14%;">남(27)</td>
                             <td  style="width:10%;">2.8</td>
                             <td  style="width:10%;">갤럭시S10</td>
                             <td  style="width:44%;">운동, 드럼, 기계만지기</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">5</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(23)</td>
                             <td  style="width:10%;">3.3</td>
                             <td  style="width:10%;">아이폰7</td>
                             <td  style="width:44%;">사진 촬영 및 보정, 악기 연주(기타, 첼로, 피아노), 독서, 홈트레이니, 요리, 가드닝, 글쓰기, 영상 편집, 미국 드라마</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">6</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">남(26)</td>
                             <td  style="width:10%;">3.3</td>
                             <td  style="width:10%;">아이폰7</td>
                             <td  style="width:44%;">운동, 노래, 영화감상, 산책, 독서</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">7</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">남(22)</td>
                             <td  style="width:10%;">3.2</td>
                             <td  style="width:10%;">아이폰7</td>
                             <td  style="width:44%;">IT, 패션, 컴퓨터, 전자기기, 쇼핑</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">8</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(24)</td>
                             <td  style="width:10%;">3.3</td>
                             <td  style="width:10%;">갤럭시노트8</td>
                             <td  style="width:44%;">영화, 음악, 사진찍기, 화장품 리뷰 검색</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">9</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">남(25)</td>
                             <td  style="width:10%;">3.4</td>
                             <td  style="width:10%;">갤럭시노트9</td>
                             <td  style="width:44%;">음악, 게임, 지식, 운동, 여행, 탐구</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">10</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(24)</td>
                             <td  style="width:10%;">3.8</td>
                             <td  style="width:10%;">아이폰8</td>
                             <td  style="width:44%;">영화감상, 산책, 미술, 디자인</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">11</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(24)</td>
                             <td  style="width:10%;">3.5</td>
                             <td  style="width:10%;">갤럭시S20+</td>
                             <td  style="width:44%;">사진, 그림, 노래, 독서, 요리, 쇼핑</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">12</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(21)</td>
                             <td  style="width:10%;">3.3</td>
                             <td  style="width:10%;">갤럭시노트9</td>
                             <td  style="width:44%;">웹 소설, 웹툰, 음악, 춤추기, 글쓰기, 다이어리, 소설, 연예인, 여행</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">13</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(20)</td>
                             <td  style="width:10%;">3.2</td>
                             <td  style="width:10%;">아이폰6</td>
                             <td  style="width:44%;">축구, 아이쇼핑, 게임, 앱공부, 드라마, 영화</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">14</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(25)</td>
                             <td  style="width:10%;">2.5</td>
                             <td  style="width:10%;">아이폰8</td>
                             <td  style="width:44%;">독서, 유투브, 넷플릭스, 왓챠</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">15</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">남(20)</td>
                             <td  style="width:10%;">3.2</td>
                             <td  style="width:10%;">아이폰11PRO</td>
                             <td  style="width:44%;">자전거, 야구, 축구, 탁구, 컴퓨터, 스마트폰, 헬스, 맨몸운동, 운전, 맛집탐방, 요리프로 보기, 디시</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">16</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(21)</td>
                             <td  style="width:10%;">3.3</td>
                             <td  style="width:10%;">아이폰8</td>
                             <td  style="width:44%;">사진/영상 촬영 및 편집, 블로그, 맛집 탐방, 운동, 반려동물 키우기, 게임</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">17</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(24)</td>
                             <td  style="width:10%;">2.4</td>
                             <td  style="width:10%;">갤럭시S7Edge</td>
                             <td  style="width:44%;">랠리그라피, 음악감상, 패션, 뷰티, 커뮤니티</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">18</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(23)</td>
                             <td  style="width:10%;">3.3</td>
                             <td  style="width:10%;">갤럭시S8</td>
                             <td  style="width:44%;">인스타그램, 맛집 탐방, 넷플릭스, 게임(배틀그라운드/성장형 게임), 사진찍기, 산책하기, 요리, 유투브, e북</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">19</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">남(25)</td>
                             <td  style="width:10%;">3.3</td>
                             <td  style="width:10%;">LGQ6</td>
                             <td  style="width:44%;">산책, 독서, 웹서핑, 게임</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">20</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">남(24)</td>
                             <td  style="width:10%;">3.1</td>
                             <td  style="width:10%;">갤럭시노트10+</td>
                             <td  style="width:44%;">자기, 먹기, 등산, 휴대폰, 컴퓨터</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">21</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(24)</td>
                             <td  style="width:10%;">3.3</td>
                             <td  style="width:10%;">아이폰SE</td>
                             <td  style="width:44%;">SNS, 블로그, 음악, 유투브, 독서, 요리</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">22</td>
                             <td  style="width:12%;">직장</td>
                             <td  style="width:14%;">남(26)</td>
                             <td  style="width:10%;">3.4</td>
                             <td  style="width:10%;">아이폰6S</td>
                             <td  style="width:44%;">운동, 맛집탐방, 독서, IT</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">23</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">남(23)</td>
                             <td  style="width:10%;">3.7</td>
                             <td  style="width:10%;">갤럭시S9</td>
                             <td  style="width:44%;">영화, 코딩, 배드민턴, 운동</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">24</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">남(26)</td>
                             <td  style="width:10%;">3.8</td>
                             <td  style="width:10%;">갤럭시노트8</td>
                             <td  style="width:44%;">영화, 음악, 쇼핑, 게임</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">25</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">남(22)</td>
                             <td  style="width:10%;">3.4</td>
                             <td  style="width:10%;">갤럭시S10</td>
                             <td  style="width:44%;">불어, AI, 운동, 자기개발, 음악 감상</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">26</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(23)</td>
                             <td  style="width:10%;">3.3</td>
                             <td  style="width:10%;">LGG7</td>
                             <td  style="width:44%;">메이크업, 유투브, 게임, 그림, 음악</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">27</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(23)</td>
                             <td  style="width:10%;">3.3</td>
                             <td  style="width:10%;">갤럭시S9</td>
                             <td  style="width:44%;">웹툰, 만화, 음악, 다이어리, 바이올린, 피아노, 수영, 헬스, 유투브, 디자인, 미술관, 전시회</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">28</td>
                             <td  style="width:12%;">직장</td>
                             <td  style="width:14%;">여(27)</td>
                             <td  style="width:10%;">3.3</td>
                             <td  style="width:10%;">갤럭시S8</td>
                             <td  style="width:44%;">수영, 피아노, 영화, 드라이브, 게임, 자전거, 전시회, 음악, 독서, 일러스트</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">29</td>
                             <td  style="width:12%;">직장</td>
                             <td  style="width:14%;">남(27)</td>
                             <td  style="width:10%;">3.3</td>
                             <td  style="width:10%;">갤럭시폴드</td>
                             <td  style="width:44%;">독서, 축구, 야구</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">30</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(20)</td>
                             <td  style="width:10%;">3.4</td>
                             <td  style="width:10%;">아이폰11PROMAX</td>
                             <td  style="width:44%;">일기, 사진, 독서, 글쓰기, 영화</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">31</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(21)</td>
                             <td  style="width:10%;">3.1</td>
                             <td  style="width:10%;">아이폰8</td>
                             <td  style="width:44%;">음악감상, 인터넷 쇼핑, 자전거, 맛집</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">32</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">여(20)</td>
                             <td  style="width:10%;">3.3</td>
                             <td  style="width:10%;">아이폰7</td>
                             <td  style="width:44%;">그림 그리기, 캘리그라피, 음악 감상</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
-                        <tr>
+                        <tr class="testerList">
                             <td  style="width:5%;">33</td>
                             <td  style="width:12%;">학생</td>
                             <td  style="width:14%;">남(20)</td>
                             <td  style="width:10%;">2.9</td>
                             <td  style="width:10%;">갤럭시S10</td>
                             <td  style="width:44%;">유투브, 전자기기 구입, 헬스</td>
-                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum"></td>
+                            <td  style="width:5%;" ><input type="checkbox" name="TesterNum" onclick="setBg(this)"></td>
                         </tr>
                         </tbody>
                     </table>
@@ -584,9 +584,12 @@
                 <div class="form-group row">
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <button class="btn btn-outline-secondary" type="button" id="test">선택한 테스터 ID 확인</button>
+                            <button class="btn btn-outline-dark" type="button" id="test">선택한 테스터 ID 확인</button>
                         </div>
                         <input type="text" class="form-control" aria-describedby="test" id="resultTester">
+                        <div>
+                            <button class="btn btn-warning" type="button" onclick="setCheckBox()">Check Reset</button>
+                        </div>
                     </div>
                 </div>
             <div class="container text-center">
