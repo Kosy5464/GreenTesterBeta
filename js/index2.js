@@ -51,7 +51,7 @@ $(document).ready(function(){
         var testDetails = $('textarea#testDetails').val();
   
         //testerID 값 받아오는 부분
-        var tester = $("div#resultTester").text();
+        var tester = $("input#resultTester").val();
   
         //test지 밑 부분 값
         var checklist = $('input:text[name="check"]');
@@ -74,9 +74,7 @@ $(document).ready(function(){
         var clPhoneNum = $('input#InputPhone').val();
   
         //이메일, 연락처 빈 값 검사 부분
-        if(!client||!inputAW||!inputService||!testDetails||!clEmail||!clPhoneNum){
-            //alert('입력해주셔야죵ㅎ');
-
+        if(!clEmail||!clPhoneNum){
             event.preventDefault();
 
             document.getElementById("modal").innerHTML ='<div class="modal-dialog" role="document">\n' +

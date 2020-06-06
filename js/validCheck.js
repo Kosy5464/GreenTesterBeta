@@ -12,4 +12,12 @@ $(function(){
         }
         else{ location.href = '#about'}
     })
+    //tester 입력 확인 부분
+    $('button#tester').click(function(){
+        var tester = $('input#resultTester').val();
+        if(!tester){
+            alert('선택한 테스터 ID를 확인 해주세요.');
+        }
+        else{ location.href = '#about2'}
+    })
 })
