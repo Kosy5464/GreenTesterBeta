@@ -79,15 +79,18 @@ function setBg(t){
 }
 
 //Tester Reset 부분(체크 취소, 색상 원상태, TesterID 보여준 값 지우기)
-function setCheckBox(t){
+function setCheckBox(){
     $("input[name=TesterNum]").prop("checked",false);
     $(".testerList:odd").css("background-color","white");
     $(".testerList:even").css("background-color","#eeeeee");
-    $(".testerList").hover(function () {
-        $(this).css("background-color","#d4edda");
-    },function(){
-        $(".testerList:odd").css("background-color","white");
-        $(".testerList:even").css("background-color","#eeeeee");
-    })
+
+    //reset버튼 누른 후 hover 이벤트 처리 __ 이걸하면 check시 색변하는게 안됨.
+   // $(".testerList").hover(function () {
+     //   $(this).css("background-color","#d4edda");
+    //},function(){
+      //  $(".testerList:odd").css("background-color","white");
+        //$(".testerList:even").css("background-color","#eeeeee");
+    //})
+
     $("#resultTester").val(null);
 }
