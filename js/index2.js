@@ -111,7 +111,7 @@ $(document).ready(function(){
         }
         //파이어베이스에 값 넣기
         $('button#finalSubmit').click(function(){
-            firebase.database().ref('/customer/'+clPhoneNum).set({
+            firebase.database().ref('/customer/'+inputAW).set({
                   A_clientName:client,
                   B_AppWeb: inputAW,
                   C_service: inputService,
@@ -122,11 +122,10 @@ $(document).ready(function(){
                   H_question:quesArr,
                   I_testerID:tester,
                   J_clientEmail: clEmail,
-  
+                  K_clientTel: clPhoneNum
             });
             alert('제출이 완료되었습니다.')
         })
     })
   
   })
-  
