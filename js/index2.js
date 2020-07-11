@@ -122,7 +122,8 @@ $(document).ready(function(){
                   H_question:quesArr,
                   I_testerID:tester,
                   J_clientEmail: clEmail,
-                  K_clientTel: clPhoneNum
+                  K_clientTel: clPhoneNum,
+                  L_onCheck:0
             });
             alert('제출이 완료되었습니다.')
         })
