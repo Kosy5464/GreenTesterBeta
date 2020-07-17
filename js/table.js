@@ -18,7 +18,7 @@ $(document).ready(function(){
             rowData.push(tr.text());
 
             // 0번이 번호 이므로 번호를 가져옴
-            var number = td.eq(0).text()+" "
+            var number = td.eq(1).text()+" "
 
             // 가져온 값을 배열에 담는다.
             tdArr.push(number);
